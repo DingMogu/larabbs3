@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4bff2e3-aad9-4088-9dde-ce650edeb4e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e4bff2e3-aad9-4088-9dde-ce650edeb4e6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +114,7 @@
       <path value="$PROJECT_DIR$/vendor/mews/captcha" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/summerblue/generator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WVoTJmEFTbak3Wnbe0Qnyi1HHP" />
@@ -160,7 +159,7 @@
       <workItem from="1579247354426" duration="3927000" />
       <workItem from="1579251312918" duration="394000" />
       <workItem from="1579326866621" duration="8188000" />
-      <workItem from="1579413701053" duration="1937000" />
+      <workItem from="1579413701053" duration="2549000" />
     </task>
     <servers />
   </component>
