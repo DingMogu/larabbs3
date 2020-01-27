@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Topic;
 use App\Models\Category;
+use Illuminate\Support\Facades\DB;
 
 class CategoriesController extends Controller
 {
@@ -13,6 +14,9 @@ class CategoriesController extends Controller
         // 读取分类 ID 关联的话题，并按每 20 条分页
         $topics = $topic->withOrder($request->order)
             ->where('category_id', $category->id)
+//            ->with(['user:id,', 'category' => function($query) {
+//                $query->where('id', 1);
+//            }])
             ->with('user', 'category')   // 预加载防止 N+1 问题
             ->paginate(20);
 

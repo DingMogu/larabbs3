@@ -18,7 +18,7 @@ class Topic extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function scopeWithOrder($query,$order)
+    public function scopeWithOrder($query, $order)
     {
         switch ($order){
             case 'recent':
@@ -43,7 +43,7 @@ class Topic extends Model
 
     public function link($params = [])
     {
-        return route('topics.show',array_merge([$this->id,$this->slug],$params));
+        return route('topics.show', array_merge([$this->id,$this->slug], $params));
     }
 
     public function replies()
